@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sibahle IT Solutions and Projects</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Poppins', sans-serif; background: #f5f7fa; color: #333; }
+
+header {
+    background: linear-gradient(135deg, #0a3d62, #1e3799);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 { font-size: 42px; font-weight: 700; }
+header p { margin-top: 15px; font-size: 18px; }
+
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #1e3799;
+    font-weight: 600;
+}
+
+section {
+    padding: 70px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+    color: #0a3d62;
+}
+
+.about-text {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card h3 {
+    color: #1e3799;
+    margin-bottom: 15px;
+}
+
+.cta-section {
+    background: linear-gradient(135deg, #1e3799, #0a3d62);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 12px;
+}
+
+.button {
+    display: inline-block;
+    padding: 14px 30px;
+    background: white;
+    color: #1e3799;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 17px;
+    line-height: 2;
+}
+
+footer {
+    background: #0a3d62;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+@media(max-width: 768px) {
+    header h1 { font-size: 30px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Sibahle IT Solutions and Projects</h1>
+    <p>Professional IT • Electrical • Security • Solar Solutions</p>
+    <p>Registration No: 2019/028274/07</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Our Company</h2>
+    <div class="about-text">
+        <p>
+        Sibahle IT Solutions and Projects is a proudly South African company delivering reliable, innovative and affordable technology solutions.
+        We specialise in IT infrastructure, networking, security systems, electrical installations and solar solutions for homes, schools, businesses and government institutions.
+        </p>
+        <p style="margin-top:20px;">
+        Our mission is to empower organisations through modern technology, professional workmanship and dependable service excellence.
+        </p>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Our Professional Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>IT Support & Maintenance</h3>
+            <p>System troubleshooting, hardware upgrades, software installation and ongoing technical support.</p>
+        </div>
+        <div class="card">
+            <h3>Networking Solutions</h3>
+            <p>Structured cabling, WiFi setup, LAN/WAN configuration and secure network installations.</p>
+        </div>
+        <div class="card">
+            <h3>CCTV & Surveillance</h3>
+            <p>High-quality camera systems for residential and commercial security monitoring.</p>
+        </div>
+        <div class="card">
+            <h3>Access Control Systems</h3>
+            <p>Biometric systems, gate motors, intercoms and smart entry management.</p>
+        </div>
+        <div class="card">
+            <h3>Electrical Installations</h3>
+            <p>Wiring, DB upgrades, maintenance and compliant electrical services.</p>
+        </div>
+        <div class="card">
+            <h3>Solar & Backup Power</h3>
+            <p>Solar panels, inverters, battery systems and load-shedding backup solutions.</p>
+        </div>
+        <div class="card">
+            <h3>Boardroom & AV Solutions</h3>
+            <p>Projectors, conferencing systems, display screens and sound installations.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Our Projects</h2>
+    <div class="about-text">
+        <p>
+        We have successfully completed installations and support services for private homes, offices, community centres and educational institutions.
+        Our focus remains on quality assurance, safety compliance and long-term reliability.
+        </p>
+    </div>
+</section>
+
+<section class="cta-section">
+    <h2>Need Reliable Technical Solutions?</h2>
+    <p>Contact Sibahle IT Solutions and Projects today for professional service and competitive pricing.</p>
+    <a class="button" href="https://wa.me/27659595239" target="_blank">Chat on WhatsApp</a>
+</section>
+
+<section id="contact">
+    <h2>Contact Information</h2>
+    <div class="contact-info">
+        <p><strong>Director:</strong> Muzi Mbatha</p>
+        <p><strong>Phone:</strong> 065 959 5239</p>
+        <p><strong>Address:</strong> Block L Lekgema, 600748, 0192, South Africa</p>
+        <p><strong>Email:</strong> info@sibahleit.co.za</p>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Sibahle IT Solutions and Projects. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
